@@ -9,9 +9,9 @@
       <h1><xsl:text>ゲーム所持リスト</xsl:text></h1>
       <table>
         <tr>
-          <th><xsl:text>ゲームタイトル</xsl:text></th>
-          <th><xsl:text>購入日</xsl:text></th>
-          <th><xsl:text>購入価格</xsl:text></th>
+          <th><xsl:text disable-output-excaping="yes">ゲームタイトル</xsl:text></th>
+          <th><xsl:text disable-output-excaping="yes">購入日</xsl:text></th>
+          <th><xsl:text disable-output-excaping="yes">購入価格</xsl:text></th>
         </tr>
         <xsl:for-each select="ゲーム所持リスト/ゲーム情報">
           <tr>
